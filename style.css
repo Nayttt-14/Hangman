@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    background: rgb(102, 163, 192);
+    display: flex;
+    padding: 36px 70px;
+    border-radius: 10px;
+    height: 600px;
+    width: 1260px;
+    display: block;
+    margin: 64px 142px;
+}
+
+.hangman-platform{
+    justify-self: center;
+}
+
+.spaceForLetters{
+    justify-self: center;
+    font-size: 50px;
+}
+.letterInput {
+    margin: 0px 10px
+}
+
+.keyBoard{
+    display: block;
+    margin: 0px 50px;
+    justify-self: center;
+}
+
+.letterKeys {
+    display: flex;
+    flex-wrap: flex;
+}
+
+.letterKeys button {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.guesses{
+    font-size: 18px;
+    text-align: center;
+}
+
+#win {
+    display: none;
+}
+
+#lose {
+    display: none;
+}
